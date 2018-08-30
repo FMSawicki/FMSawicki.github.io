@@ -14,18 +14,18 @@ body {
     float: left;
     display: inline-block;
     padding: 0 20px;
-    
  }
 
  h3 {
      font-size: 60px;
      font-family: 'Lobster', cursive;
      text-decoration: underline;
-     color: #eed5d5
+     color: #eed5d5;
+     margin-bottom: 0;
  }
 
  p {
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
  }
  
@@ -36,22 +36,25 @@ body {
     
  }
  div {
-     display: inline-block;
-     position:absolute;
+    display: inline-block;
+    position:absolute;
     top:10;
     right:0;
     padding: 10px 0;
     margin: 10px 15px 0 0;
     border: #eed5d5 solid 1px;
+    background-color: rgba(166, 155, 214, 0.1);
  }
 
  footer {
-     text-align: right;
-   
-     position:absolute;
+    text-align: right;
+    border: #eed5d5 solid 1px;
+    background-color: rgba(166, 155, 214, 0.2);
+    position: absolute;
     bottom:0;
     right:0;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin: 20px;
 
  }
 h2 {
@@ -62,5 +65,5 @@ h2 {
  .smol {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
  }
