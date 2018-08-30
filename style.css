@@ -51,6 +51,7 @@ body {
  }
 h2 {
     color: #eed5d5;
+    text-decoration: underline;
 }
  .smol {
     font-size: 15px;
