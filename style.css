@@ -17,19 +17,27 @@ body {
      font-size: 60px;
      font-family: 'Lobster', cursive;
      text-decoration: underline;
+     color: #eed5d5
  }
 
  p {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
  }
-
+ 
+ a {
+    color: #eed5d5;
+        text-decoration: none; 
+    
+ }
  div {
      display: inline-block;
      position:absolute;
-    top:0;
+    top:10;
     right:0;
-    padding: 20px 20px;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+    border: #eed5d5 solid 1px;
  }
 
  footer {
@@ -41,7 +49,9 @@ body {
     padding: 0 20px;
 
  }
-
+h2 {
+    color: #eed5d5;
+}
  .smol {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
