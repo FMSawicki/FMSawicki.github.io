@@ -32,28 +32,31 @@ body {
  a {
     color: #edeed5;
     text-decoration: none; 
-    padding: 0 10px;
+    padding: 10px;
+    border: #edeed5 solid 1px;
+    background-color: rgba(166, 155, 214, 0.1);
+    border-radius: 25px;
     
  }
  div {
     display: inline-block;
-    position:absolute;
+    position: absolute;
     top:10;
     right:0;
     padding: 10px 0;
     margin: 10px 15px 0 0;
-    border: #edeed5 solid 1px;
-    background-color: rgba(166, 155, 214, 0.1);
+   
  }
 
  footer {
     text-align: right;
     border: #edeed5 solid 1px;
+    border-radius: 25px;
     background-color: rgba(166, 155, 214, 0.2);
     position: absolute;
     bottom:0;
     right:0;
-    padding: 0 10px;
+    padding: 5px 10px;
     margin: 20px;
  }
 h2 {
