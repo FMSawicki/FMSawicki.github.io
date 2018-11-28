@@ -1,0 +1,9 @@
+.landingHead {
+    font-family: 'Poppins', sans-serif;
+}
+.body {
+    /* background-color: red; */
+    height: 500px;
+    background-image: url('../Images/woodgrain.jpg');
+    background-size: 100%;
+}
