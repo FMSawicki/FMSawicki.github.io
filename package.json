@@ -8,8 +8,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
-  "homepage": "http://FMSawicki.github.io/",
-
+  "homepage": "http://FMSawicki.github.io/FMSawicki.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
