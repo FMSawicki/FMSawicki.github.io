@@ -14,8 +14,12 @@
 }
 
 .navLinks {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;  
-    color: #d3d3d3;
-    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-family: 'Ranga', cursive;
+    /* color: #0f12a0; */
+  }
+  a {
+   
   }

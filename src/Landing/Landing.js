@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "./Landing.css";
 
 class Landing extends Component {
-  componentDidMount() {
-    $(".App").css("background-color", "red");
-  }
   render() {
     return (
       <div className="body">
