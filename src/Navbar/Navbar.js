@@ -21,15 +21,18 @@ class Navbar extends Component {
                 Contact 
               </NavLink> */}
 
-        <NavLink className="navLinks" to="/">
+        <NavLink to="/">
           <img src={Logo} className="logo" alt="logo" />
         </NavLink>
 
-        <a className="navLinks" href="#">
+        <a
+          className="navLinks"
+          href="https://www.linkedin.com/in/felix-sawicki-01b80293"
+        >
           LinkedIn
         </a>
 
-        <a className="navLinks" href="#">
+        <a className="navLinks" href="https://github.com/FMSawicki">
           GitHub
         </a>
       </div>
