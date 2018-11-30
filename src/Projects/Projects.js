@@ -53,7 +53,7 @@ class Projects extends Component {
       itemLink = "";
 
       itemDescription =
-        "This app takes text input, sends a fetch request to an API which returns it's closest match to an anagram.";
+        "This app takes text input, sends a fetch request to an API which returns its closest match to an anagram.";
     }
     if (this.state.proof === true) {
       itemStyle = {
