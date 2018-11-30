@@ -1,12 +1,9 @@
 .projectMain{
-/* background-color: red; */
     width: 1300px;
     height: 530px;
     position: fixed;
-font-family: 'Libre Baskerville', serif;
-/* position: fixed; */
-/* margin-left: -50px; */
-display: flex;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
     }
 .projectContainer {
     background-color: purple;
@@ -16,17 +13,13 @@ display: flex;
     height: 510px;
 }
 .mainItem{
-    /* background-color: blue; */
     width: 706px;
     height: 530px;
     text-align: center;
-    /* position: fixed; */
     margin-left: 60px;
     margin-right: auto;
-    /* margin-bottom: -100px; */
     }
 .itemImage{
-    /* background-image: url('../Images/cabin.jpg'); */
     background-size: 100%;
     width: 700px;
     height: 400px;
@@ -39,11 +32,7 @@ display: flex;
 
 .sidebar {
     flex-direction: column;
-    /* background-color: blue; */
     height: 500px;
-    /* position: unset; */
-    /* margin-left: 10px; */
-    /* text-decoration: none; */
 }
 .sideName {
     font-size: 15px;
@@ -52,6 +41,9 @@ li {
     list-style-type: none;
 }
 .sideName:active {
+    color: #c99e76;
+}
+.projectButton:active {
     color: #c99e76;
 }
 .projectText{
@@ -65,21 +57,6 @@ button {
     padding:0!important;
     font: inherit;
 }
-
-.background-enter {
-    transform: translate(100%);
-  }
-  .background-enter.background-enter-active {
-    transform: translate(0%);
-    transition: transform 1000ms ease-in-out;
-  }
-  .background-leave {
-    transform: translate(0%);
-  }
-  .background-leave.background-leave-active {
-    transform: translate(-100%);
-    transition: transform 1000ms ease-in-out;
-  }
 
 
 .grow { transition: all .2s ease-in-out; }

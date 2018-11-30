@@ -3,8 +3,6 @@
 }
 .body {
     text-align: center;
-
-    /* background-color: red; */
     height: 500px;
     background-image: url('../Images/woodgrain.jpg');
     background-size: 100%;
@@ -12,8 +10,4 @@
 border-style: ridge;
 font-family: 'Libre Baskerville', serif;
 
-}
-
-.description {
-    /* font-family: 'Oswald', sans-serif; */
 }

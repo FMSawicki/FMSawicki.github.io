@@ -3,8 +3,6 @@
     margin-top: 5px
   }
 #navBarMain {
-    /* background-color: blue; */
-    /* width: 100%; */
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
@@ -18,8 +16,4 @@
     text-decoration: none;  
     color: black;
     font-family: 'Ranga', cursive;
-    /* color: #0f12a0; */
-  }
-  a {
-   
   }

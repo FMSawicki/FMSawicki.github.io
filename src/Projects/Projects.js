@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-// import Proof from "./Subcomponents/Proof";
-// import Anagram from "./Subcomponents/Anagram";
-
 import "./Projects.css";
 
 var homePic = require("../Images/cabin.jpg");
@@ -40,7 +37,6 @@ class Projects extends Component {
 
   render() {
     let itemStyle;
-    let linkStyle;
     let itemLink;
     let itemDescription;
 
@@ -54,17 +50,10 @@ class Projects extends Component {
       itemStyle = {
         backgroundImage: "url(" + anagramPic + ")"
       };
-      // linkStyle = {
-      //   color: "#c99e76"
-      // };
       itemLink = "";
 
       itemDescription =
         "This app takes text input, sends a fetch request to an API which returns it's closest match to an anagram.";
-    } else {
-      // linkStyle = {
-      //   color: "white"
-      // };
     }
     if (this.state.proof === true) {
       itemStyle = {
@@ -72,15 +61,8 @@ class Projects extends Component {
       };
       itemLink = "";
 
-      // linkStyle = {
-      //   color: "#c99e76"
-      // };
       itemDescription =
         "This Webpage has been commissioned by Proof Technology LLC, an MSP providing IT services";
-    } else {
-      // linkStyle = {
-      //   color: "white"
-      // };
     }
 
     return (
@@ -96,7 +78,6 @@ class Projects extends Component {
                 name="anagram"
                 id="anagramButton"
                 onClick={this.onClick}
-                style={linkStyle}
               >
                 Anagram Generator
               </button>
