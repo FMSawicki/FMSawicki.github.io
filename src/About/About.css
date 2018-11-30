@@ -1,9 +1,9 @@
 .aboutMain{
 /* background-color: green; */
-background-size: 100%;
+/* background-size: 100%; */
 width: 80%;
 height: 600px;
-
+position: fixed;
 }
 
 #headshot {
@@ -11,7 +11,8 @@ height: 600px;
     border-style: ridge;
     border-radius: 50%;
     width: 300px;
-    margin-left: -50px;
+    margin-left: -90px;
+    /* margin-top: 20px; */
 
 }
 .textWrapper {
@@ -19,4 +20,5 @@ height: 600px;
     margin-left: 275px;
     margin-top: -175px;
     font-family: 'Libre Baskerville', serif;
+    position: absolute;
 }

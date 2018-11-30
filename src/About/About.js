@@ -6,6 +6,7 @@ class About extends Component {
     return (
       <div className="aboutMain">
         <img src={Headshot} alt="headshot" id="headshot" />
+
         <div className="textWrapper">
           <p className="aboutText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
