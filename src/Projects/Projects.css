@@ -40,7 +40,7 @@
 li {
     list-style-type: none;
 }
-.sideName:active {
+.sideName:focus {
     color: #c99e76;
 }
 .projectButton:active {
@@ -48,6 +48,8 @@ li {
 }
 .projectText{
     transition: all .5s ease-in-out;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 button {
@@ -59,5 +61,5 @@ button {
 }
 
 
-.grow { transition: all .2s ease-in-out; }
+.grow { transition: all .4s ease-in-out; }
 .grow:hover { transform: scale(1.1); }

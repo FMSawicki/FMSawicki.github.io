@@ -18,7 +18,6 @@ class Landing extends Component {
             quis vehicula. Nulla at condimentum sem.
           </p>
         </div>
-        {/* <img id="landingImg" src="#" alt="picture" /> */}
       </div>
     );
   }

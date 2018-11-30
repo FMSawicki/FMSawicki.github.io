@@ -1,6 +1,4 @@
 .aboutMain{
-/* background-color: green; */
-/* background-size: 100%; */
 width: 90%;
 height: 600px;
 position: fixed;
@@ -11,15 +9,12 @@ position: fixed;
     border-style: ridge;
     border-radius: 50%;
     width: 300px;
-    /* margin-left: -90px; */
     margin-top: 30px;
     position: absolute;
 }
 .textWrapper {
-    /* background-color: red; */
     width: 600px;
     margin-left: 400px;
-    /* margin-top: -175px; */
     font-family: 'Libre Baskerville', serif;
     position: absolute;
 }
