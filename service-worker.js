@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FMSawicki.github.io/precache-manifest.873f83404929b3081c1f6a8fcc20d95c.js"
+  "/porfolio/precache-manifest.83f07db00bafa88dff148fd6d82e116f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/FMSawicki.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/porfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
