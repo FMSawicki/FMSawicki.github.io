@@ -28,7 +28,9 @@
     border-style: ridge;
     display: block;
 }
-
+.projectH3 {
+    margin-left: 20px;
+}
 
 .sidebar {
     flex-direction: column;

@@ -5,24 +5,19 @@ class About extends Component {
   render() {
     return (
       <div className="aboutMain">
-        <img src={Headshot} alt="headshot" id="headshot" />
+        <div className="aboutWrapper">
+          <img src={Headshot} alt="headshot" id="headshot" />
 
-        <div className="textWrapper">
-          <p className="aboutText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet pharetra arcu at suscipit. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas.
-            Nam luctus turpis vitae nisl pretium congue. Maecenas congue felis
-            eu lacus condimentum vehicula.
-          </p>
-
-          <p className="aboutText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet pharetra arcu at suscipit. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas.
-            Nam luctus turpis vitae nisl pretium congue. Maecenas congue felis
-            eu lacus condimentum vehicula.
-          </p>
+          <div className="textWrapper">
+            <p className="aboutText">
+              I'm a full-stack web developer and veteran looking to join a
+              people-oriented team that strives to make an impact on the world.
+              My background in both military service and non-profit work has
+              made me passionate about affecting real change for the world, as
+              well as working in driven, goal-oriented workplaces where the
+              outcome improves people's lives
+            </p>
+          </div>
         </div>
       </div>
     );

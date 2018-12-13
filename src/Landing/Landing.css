@@ -9,5 +9,13 @@
     border: #c99e76 solid 3px;
     border-style: ridge;
     font-family: 'Libre Baskerville', serif;
+    width: 100%;
 
+}
+.landingText {
+    margin-top: 100px;
+}
+
+.description {
+    margin-top: 20px;
 }

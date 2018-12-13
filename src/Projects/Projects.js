@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import "./Projects.css";
 
-var homePic = require("../Images/cabin.jpg");
-var anagramPic = require("../Images/tree.jpeg");
-var proofPic = require("../Images/proofContact.png");
+var anagramPic = require("../Images/anagram.png");
+var proofPic = require("../Images/proof.png");
 
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { anagram: false, proof: false, home: true };
+    this.state = { anagram: false, proof: true };
   }
   onClick = e => {
     console.log([e.target.name]);
@@ -26,13 +25,6 @@ class Projects extends Component {
         proof: true
       });
     }
-    if (e.target.name !== "home") {
-      this.setState({ home: false });
-    } else {
-      this.setState({
-        home: true
-      });
-    }
   };
 
   render() {
@@ -40,12 +32,6 @@ class Projects extends Component {
     let itemLink;
     let itemDescription;
 
-    if (this.state.home === true) {
-      itemStyle = {
-        backgroundImage: "url(" + homePic + ")"
-      };
-      console.log(homePic);
-    }
     if (this.state.anagram === true) {
       itemStyle = {
         backgroundImage: "url(" + anagramPic + ")"
@@ -68,20 +54,8 @@ class Projects extends Component {
     return (
       <div className="projectMain">
         <div className="sidebar">
-          <button className="projectButton" name="home" onClick={this.onClick}>
-            My Projects
-          </button>
+          <h3 className="projectH3">Projects</h3>
           <ul>
-            <li>
-              <button
-                className="sideName"
-                name="anagram"
-                id="anagramButton"
-                onClick={this.onClick}
-              >
-                Anagram Generator
-              </button>
-            </li>
             <li>
               <button
                 className="sideName"
@@ -90,6 +64,16 @@ class Projects extends Component {
                 onClick={this.onClick}
               >
                 Proof Technology Webpage
+              </button>
+            </li>
+            <li>
+              <button
+                className="sideName"
+                name="anagram"
+                id="anagramButton"
+                onClick={this.onClick}
+              >
+                Anagram Generator
               </button>
             </li>
           </ul>
