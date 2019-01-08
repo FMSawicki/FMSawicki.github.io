@@ -22,8 +22,10 @@ height: 600px;
     position: absolute;
 }
 .textWrapper {
+    margin-top: -10px;
     width: 600px;
     margin-left: 400px;
     font-family: 'Libre Baskerville', serif;
     position: absolute;
+    line-height: 40px;
 }

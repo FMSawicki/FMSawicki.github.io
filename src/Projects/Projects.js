@@ -48,7 +48,7 @@ class Projects extends Component {
       itemLink = "";
 
       itemDescription =
-        "This Webpage has been commissioned by Proof Technology LLC, an MSP providing IT services";
+        "This Webpage has been commissioned by Proof Technology LLC, an MSP providing IT and cyber security services";
     }
 
     return (
